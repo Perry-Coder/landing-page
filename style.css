@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    padding-right: 40px;
+    background-color: #1f2937;
+  }
+
+ .header-header {
+    display: flex;
+    justify-content: space-between;
+ } 
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+  }
+
+a:link {
+    color: grey;
+    text-decoration: none;
+  }
+
+ h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+ } 
+
+
+  
