@@ -39,5 +39,35 @@ a:link {
     margin: 0;
  } 
 
-
+ button {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 8px 24px;
+  }
   
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    display: flex;
+    gap: 50px;
+
+  }
+
+  img {
+    width: 150px;
+  }
+
+.text {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
