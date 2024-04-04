@@ -19,6 +19,7 @@ body {
  .header-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
  } 
 
 ul {
@@ -30,6 +31,7 @@ ul {
 a:link {
     color: grey;
     text-decoration: none;
+    font-size: 18px;
   }
 
  h4 {
@@ -37,7 +39,24 @@ a:link {
     color: #f9faf8;
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  } 
+
+
+ .hero.primary {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .hero.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0px;
+ }
+
 
  button {
     color: white;
@@ -51,6 +70,8 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
   }
 
   .cards {
@@ -70,4 +91,23 @@ a:link {
     flex-wrap: wrap;
     margin: auto;
     text-align: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100;
+}
+
+p {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.Thor {
+    display: flex;
+    justify-content: right;
 }
