@@ -137,3 +137,26 @@ p {
     display: flex;
     justify-content: right;
 }
+
+.footer {
+    display: flex;
+    background-color: blue;
+    max-height: 200px;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.footer.words {
+    display: flex;
+    font-size: small;
+    width: auto;
+    flex-direction: column;
+}
+
+.footer.button {
+    max-height: 180px;
+}
+
+h3 {
+    margin: 0;
+}
